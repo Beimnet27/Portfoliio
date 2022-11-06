@@ -1,0 +1,75 @@
+		#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+		text{
+			color: white;
+		}
+		i{
+			padding-left: 5%;
+		}
+		.blog-page .single_post {
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease
+}
+
+.blog-page .single_post .img-post {
+    position: relative;
+    overflow: hidden;
+    max-height: 500px
+}
+
+.blog-page .single_post .img-post>img {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: -webkit-transform .4s ease, opacity .4s ease;
+    transition: transform .4s ease, opacity .4s ease;
+    max-width: 100%;
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01)
+}
+.blog-page .single_post .img-post:hover img {
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+    opacity: .7;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .8s ease-in-out
+}
+
+.blog-page .single_post .img-post:hover .social_share {
+    display: block
+}
+
+.blog-page .single_post .img-post .social_share {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: none
+}
+		.card {
+    background: #fff;
+    margin-bottom: 30px;
+    transition: .5s;
+    border: 0;
+    border-radius: .55rem;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+}
+
+.card .body {
+    font-size: 14px;
+    color: #424242;
+    padding: 20px;
+    font-weight: 400;
+}
